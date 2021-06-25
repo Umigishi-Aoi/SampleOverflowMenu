@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- アクションボタンを設定 -->
+    <!-- showAsActionはneverでオーバーフローメニューにボタンが配置される-->
+    <item
+        android:id="@+id/mercury"
+        android:title="@string/mercury_title"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/venus"
+        android:title="@string/venus_title"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/earth"
+        android:title="@string/earth_title"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mars"
+        android:title="@string/mars_title"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/jupiter"
+        android:title="@string/jupiter_title"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/saturn"
+        android:title="@string/saturn_title"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/uranus"
+        android:title="@string/uranus_title"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/neptune"
+        android:title="@string/neptune_title"
+        app:showAsAction="never"/>
+
+</menu>
